@@ -6,7 +6,8 @@ const morgan = require('morgan');
 const path = require('path');
 
 
-
+//open a port environment
+const PORT = process.env.PORT || 3000;
 // Create app for express for routing
 const app = express();
 app.use(express.urlencoded({ extended: true }));
