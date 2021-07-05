@@ -22,7 +22,7 @@ Database should:
     * stats over 7 day period
       * weight total
       * time  total
-
+###### ** NOTE actual model and schema built to reflect parameters given in seed, not how I read the criteia**
 Client side:
   * upon app open choose between:
     * Continue with most recent plan activity
