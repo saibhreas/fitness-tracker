@@ -3,7 +3,7 @@ const { Console } = require('console');
 const express = require ('express');
 const mongoose = require ("mongoose");
 const morgan = require('morgan');
-const path = require('path');
+//const path = require('path'); put in html routes
 
 
 //open a port environment

@@ -1,4 +1,7 @@
 // db side
+
+//must refernce public
+
 const router = require('express').Router();
 const Workout = require ('./workouts');
 
