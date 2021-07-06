@@ -4,10 +4,6 @@ const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema(
   {
-    day: {
-      type: Date,
-      default: () => new Date()
-    },
     exercises: [
       {
         type: {
@@ -36,12 +32,12 @@ const workoutSchema = new Schema(
         distance: {
           type: Number
         }
-      }
-      day: {
-        type: Date,
-        default: () => new Date()
       },
-    ]
+    ],
+    day: {
+      type: Date,
+      default: () => new Date()
+    },
 });
 
 // adds a dynamically-created property to schema
