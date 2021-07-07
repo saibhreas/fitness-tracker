@@ -4,7 +4,7 @@ const { Workout }= require ("../models");
 
 //Get All workouts
 router.get("/api/workouts", (req, res) =>{
-  consol.log("GET all workouts")
+  consol.log("GET all workouts");
   db.Workout.find({})
     .then(dbWorkout => {
       res.json(dbWorkout);
@@ -16,7 +16,7 @@ router.get("/api/workouts", (req, res) =>{
 
 
 //New Workout
-router.post("api/workouts", ({ body}, res) =>{
+router.post("/api/workouts", ({ body}, res) =>{
   console.log("Post1 workouts/ New");
   db.Workout.create({body})
   .then(dbWorkout => {

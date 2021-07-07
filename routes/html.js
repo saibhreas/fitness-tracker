@@ -13,7 +13,7 @@ router.get("/exercise", (req, res) =>{
 
 router.get("/stats", (req,res) =>{
   console.log("hit Stats");
-  res.sendFile(path(__dirname, "../stats.html"));
+  res.sendFile(path.join(__dirname, "../stats.html"));
 });
 
 module.exports = router;
