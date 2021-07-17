@@ -1,5 +1,13 @@
 # #18 Nosql Workout Tracker
 
+![Screenshot1](/public/img/fitness1.png)
+
+![Screenshot1](/public/img/fitness2.png)
+
+## Youtube https://youtu.be/IZYVUhPG2a8
+
+## Heroku https://git.heroku.com/noslq-fitness.git
+
 ## Task/Criteria
 
 #### Build Mongo DB with Mongoose Schema with front end that interacts with client
